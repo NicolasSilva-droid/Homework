@@ -1,6 +1,6 @@
-const {divisao} = require('./mdc')
-const {quebrado} = require('./mdc')
-const {multiplicaçao} = require('./mdc')
+const {divisao} = require('./Homework/mdc')
+const {quebrado} = require('./Homework/mdc')
+const {multiplicaçao} = require('./Homework/mdc')
 
 describe('mdc', () => {
     it('divisao', () => {
@@ -16,4 +16,5 @@ describe('mdc', () => {
         expect(multiplicaçao(4)).toBe(8)
         expect(multiplicaçao(8)).toBe(16)
     });
+
 });
